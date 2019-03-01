@@ -106,6 +106,8 @@ Let's take a look at namespacing now. Let's say we create another greeting-type
 Rake task, `hola`:
 
 ```ruby
+
+namespace :greeting
 desc 'outputs hola to the terminal'
 task :hola do
   puts "hola de Rake!"
